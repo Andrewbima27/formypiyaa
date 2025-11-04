@@ -25,14 +25,15 @@ vara[0] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "Hewooo sayang,        youve done a great job today!",
+      text: "Hewooo sayang, youve done a great job today!",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
-      text: "I know that youve been going through   a lot recently,",
+      text: "I know that youve been going through a lot recently,",
       id: "sphinx",
+      y: 20,
       x: posX,
       delay: 500,
       duration: 4500
@@ -40,6 +41,7 @@ vara[0] = new Vara(
     {
       text: "and I just want to say how proud I am of you for pushing through everything.",
       id: "end",
+      y: 20,
       delay: 500,
       x: posX,
       duration: 4500
@@ -47,7 +49,7 @@ vara[0] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -65,14 +67,14 @@ vara[1] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "Maybe today doesnt feel like your day, but remember... youre still capable   of so much more than you think.",
+      text: "Maybe today doesnt feel like your day, but remember... youre still capable of so much more than you think.",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
       text: "So dont be sad okay... youre doing better than you think.",
-      y: 5,
+      y: 20,
       x: posX,
       delay: 500,
       duration: 3500
@@ -80,7 +82,7 @@ vara[1] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
@@ -99,19 +101,19 @@ vara[2] = new Vara(
     },
     {
       text: "Dahhh yaa cayank kuwh cudah cukup kata2 sweet nyaah ituhhh",
-      y: 10,
+      y: 40,
       x: posX,
       duration: 3500
     },
     {
       text: "Pokoknyah, semangat terus yah dalam menjalani hari2 muwh",
-      y: 0,
+      y: 20,
       x: posX,
       duration: 3500
     },
     {
       text: "Karna acu slalu ada disisimuwh, mendukungmuwh, & mencintaimuwh",
-      y: 0,
+      y: 20,
       color: "#3f51b5",
       id: "",
       x: posX,
@@ -120,7 +122,7 @@ vara[2] = new Vara(
   ],
   {
     strokeWidth: 2,
-    fontSize: fontSize.medium,
+    fontSize: fontSize.small,
     autoAnimation: false
   }
 );
